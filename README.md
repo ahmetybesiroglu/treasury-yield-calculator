@@ -41,7 +41,7 @@ source env/bin/activate
 
 Install the required dependencies using the provided `requirements.txt` file:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Configuration
@@ -66,7 +66,7 @@ Edit the `config/config.json` file to specify the tickers and dates. Here is an 
 Run the script to fetch and interpolate Treasury yields:
 
 ```bash
-python src/treasury_yield_calculator.py
+python3 src/treasury_yield_calculator.py
 ```
 
 ## Expected Output
